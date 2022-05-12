@@ -12,7 +12,7 @@ template.innerHTML = ` <link rel="stylesheet" href="./style.css" />
         </div>
     </div>`;
 
-const ReplyLimit = 4;
+const ReplyLimit = 3;
 class Comment extends HTMLElement {
     constructor() {
         super();
